@@ -22,6 +22,7 @@
         id="favcolor"
         name="favcolor"
         value="#4267B2"
+        class="np-input-color-pos"
       />
     </div>
     <div class="np-icon-color-picker">
@@ -32,6 +33,7 @@
         id="favcolor"
         name="favcolor"
         value="#1DA1F2"
+        class="np-input-color-pos"
       />
     </div>
     <div class="np-icon-color-picker">
@@ -42,6 +44,7 @@
         id="favcolor"
         name="favcolor"
         value="#f000ff"
+        class="np-input-color-pos"
       />
     </div>
     <div class="np-icon-color-picker">
@@ -52,6 +55,7 @@
         id="favcolor"
         name="favcolor"
         value="#053eff"
+        class="np-input-color-pos"
       />
     </div>
     <div class="np-credits">www.nightprogrammer.com</div>
@@ -98,5 +102,11 @@ export default {
 .np-credits {
   font-size: 12px;
   padding-top: 14px;
+}
+.np-icon-color-picker {
+  padding-bottom: 6px;
+}
+.np-input-color-pos {
+  margin-left: 10px;
 }
 </style>
